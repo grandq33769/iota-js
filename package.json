@@ -1,0 +1,21 @@
+{
+  "name": "iota",
+  "version": "1.0.0",
+  "description": "Demo webpage for using IOTA api",
+  "main": "hello_node.js",
+  "scripts": {
+    "test": "node hello_node.js"
+  },
+  "author": "Leung Lok Him",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/core": "^1.0.0-beta.6",
+    "iota.lib.js": "^0.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
